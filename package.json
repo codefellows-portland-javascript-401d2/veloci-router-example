@@ -1,0 +1,22 @@
+{
+  "name": "veloci-router-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "veloci-router": "nodemon veloci-router.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows-portland-javascript-401d2/veloci-router-example.git"
+  },
+  "author": "Marty Nelson <marty@martypdx.com> (@martypdx)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefellows-portland-javascript-401d2/veloci-router-example/issues"
+  },
+  "homepage": "https://github.com/codefellows-portland-javascript-401d2/veloci-router-example#readme",
+  "dependencies": {
+    "veloci-router": "^0.1.2"
+  }
+}
