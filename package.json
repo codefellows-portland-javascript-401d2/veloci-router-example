@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "veloci-router": "nodemon veloci-router.js"
+    "veloci-router": "nodemon veloci-router.js",
+    "route-scout": "nodemon route-scout.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/codefellows-portland-javascript-401d2/veloci-router-example#readme",
   "dependencies": {
+    "route-scout": "^1.0.3",
     "veloci-router": "^0.1.2"
   }
 }

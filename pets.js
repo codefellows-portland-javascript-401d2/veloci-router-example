@@ -11,10 +11,16 @@ const pets = [
 pets.forEach( ( p, i ) => p.id = i );
 let i = pets.length;
 
-const find = id => pets.find( p => p.id === id );
+const find = id => pets.find( p => p.id == id );
 
 module.exports = {
-	get() {
+	get( id ) {
+		return new Promise( ( resolve, reject ) => {
+			const pet = find( id );
+			pet ? resolve( pet ) : reject( `id ${id} does not exist` );
+		});
+	},
+	getAll() {
 		return Promise.resolve( pets );
 	},
 	add( pet ) {
